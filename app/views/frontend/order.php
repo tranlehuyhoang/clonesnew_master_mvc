@@ -59,12 +59,6 @@ $fm = new Format();
                                     </thead>
                                     <tbody>
 
-                                        <tr class="even">
-
-
-                                            </td>
-                                        </tr>
-
 
                                     </tbody>
                                 </table>
@@ -113,6 +107,12 @@ $fm = new Format();
 
 
 
+
+<!-- Backend Bundle JavaScript -->
+
+
+<!-- Dev By PS26819 | FB.COM/PS26819 | ZALO.ME/0947838128 | MMO Solution -->
+<!-- Script Footer -->
 
 <script type="text/javascript">
 function downloadFile(transid, token) {

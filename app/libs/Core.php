@@ -8,7 +8,7 @@ class Core
     // default controller, method, params
     public function __construct()
     {
-        $exit_controller = array('abouts', 'admin', 'blog', 'cart', 'checkout', 'contact', 'home', 'posts', 'recharge', 'order', 'products', 'user', 'wishlist', 'login', 'shop_document');
+        $exit_controller = array('abouts', 'admin', 'blog', 'cart', 'checkout', 'contact', 'orders_detail', 'home', 'payment', 'invoices', 'posts', 'recharge', 'order', 'products', 'user', 'wishlist', 'login', 'shop_document');
 
         $url = self::explodeUrl();
         // tồn tại url và controller

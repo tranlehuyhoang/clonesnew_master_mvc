@@ -51,29 +51,7 @@ $fm = new Format();
         </div>
     </div>
     <!-- Backend Bundle JavaScript -->
-    <script src="../public/datum/assets/js/backend-bundle.min.js"></script>
-    <!-- Chart Custom JavaScript -->
-    <script src="../public/datum/assets/js/customizer.js"></script>
-    <script src="../public/datum/assets/js/sidebar.js"></script>
-    <!-- Flextree Javascript-->
-    <script src="../public/datum/assets/js/flex-tree.min.js"></script>
-    <script src="../public/datum/assets/js/tree.js"></script>
-    <!-- Table Treeview JavaScript -->
-    <script src="../public/datum/assets/js/table-treeview.js"></script>
-    <!-- SweetAlert JavaScript -->
-    <script src="../public/datum/assets/js/sweetalert.js"></script>
-    <!-- Vectoe Map JavaScript -->
-    <script src="../public/datum/assets/js/vector-map-custom.js"></script>
-    <!-- Chart Custom JavaScript -->
-    <script src="../public/datum/assets/js/chart-custom.js"></script>
-    <script src="../public/datum/assets/js/charts/01.js"></script>
-    <script src="../public/datum/assets/js/charts/02.js"></script>
-    <!-- slider JavaScript -->
-    <script src="../public/datum/assets/js/slider.js"></script>
-    <!-- Emoji picker -->
-    <script src="../public/datum/assets/vendor/emoji-picker-element/index.js" type="module"></script>
-    <!-- app JavaScript -->
-    <script src="../public/datum/assets/js/app.js"></script>
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
