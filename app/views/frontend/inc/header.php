@@ -320,7 +320,8 @@
                         <span class="badge badge2 border border-primary text-primary"><i
                                 class="fas fa-wallet mr-1"></i>Ví:
                             <b>0đ</b></span>
-                        <a href="../client/login.php" class="badge border badge2 border-danger text-danger"><i
+                        <a href="<?php echo ASSETS_URL_ROOT . '/' ?>login"
+                            class="badge border badge2 border-danger text-danger"><i
                                 class="fas fa-sign-in-alt mr-1"></i><b>Đăng Nhập</b></a>
                     </div>
                     <div class="d-flex align-items-center">
@@ -396,10 +397,10 @@
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                                         <li class="dropdown-item d-flex ">
-                                            <a href="../client/login.php">Đăng Nhập</a>
+                                            <a href="<?php echo ASSETS_URL_ROOT . '/' ?>login">Đăng Nhập</a>
                                         </li>
                                         <li class="dropdown-item d-flex ">
-                                            <a href="../client/register.php">Đăng Ký</a>
+                                            <a href="<?php echo ASSETS_URL_ROOT . '/' ?>register">Đăng Ký</a>
                                         </li>
                                     </ul>
                                 </li>
