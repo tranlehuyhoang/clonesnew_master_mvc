@@ -4,8 +4,20 @@ class RegisterController extends Controller
 
     public function get()
     {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $result =  $this->model('user')->register($_POST['user_username'], $_POST['user_email'], $_POST['user_password']);
+            //if authed -> go to dashboard
+            if ($result == "200") {
+                redirect('/login');
+            } else {
+                $this->view('frontend/register', [
+                    'register' => $result
+                ]);
+            }
+            //if submit form -> check -> home 
+        }
 
-        // $first_8 = $this->model('product')->getFirst8Products();
+
         // $last_8 = $this->model('product')->getSecond8Products();
         // $category = $this->model('category')->getAllPublished();
         // $latest_product = $this->model('product')->getLastestProduct();
@@ -18,8 +30,5 @@ class RegisterController extends Controller
 
         $this->view('frontend/register');
         // }
-    }
-    public function getProducts()
-    {
     }
 }

@@ -12,7 +12,7 @@ class Controller
     }
     public function model($model)
     {
-        $exit_model = array('brand', 'admin', 'cart', 'category', 'contact', 'customer', 'orderdetail', 'orders', 'product', 'slide');
+        $exit_model = array('brand', 'admin', 'cart', 'category', 'contact', 'customer', 'orderdetail', 'orders', 'product', 'slide', 'user');
 
         // model first name ex: product
         if (in_array($model, $exit_model)) {

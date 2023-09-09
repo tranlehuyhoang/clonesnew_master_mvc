@@ -1,4 +1,3 @@
-<!-- Dev By CMSNT.CO | FB.COM/CMSNT.CO | ZALO.ME/0947838128 | MMO Solution -->
 <!doctype html>
 <html>
 
@@ -155,18 +154,20 @@
                                     <p class="line-around text-secondary mb-0"><span
                                             class="line-around-1">hoặc</span></p>
                                 </div> -->
-                                <form>
+
+                                <form method="post" action="">
+
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label class="text-secondary">Tên đăng nhập</label>
-                                                <input class="form-control" type="text" id="username" placeholder="Enter Username">
+                                                <input required class="form-control" name="user_username" type="text" id="user_username" placeholder="Enter Username">
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label class="text-secondary">Địa chỉ Email</label>
-                                                <input class="form-control" type="email" id="email" placeholder="Enter Email">
+                                                <input required class="form-control" type="email" id="user_email" name="user_email" placeholder="Enter Email">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mt-2">
@@ -174,7 +175,7 @@
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <label class="text-secondary">Mật khẩu</label>
                                                 </div>
-                                                <input class="form-control" type="password" id="password" placeholder="Vui lòng nhập mật khẩu">
+                                                <input required class="form-control" type="password" id="user_password" name="user_password" placeholder="Vui lòng nhập mật khẩu">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mt-2">
@@ -182,7 +183,7 @@
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <label class="text-secondary">Nhập lại mật khẩu</label>
                                                 </div>
-                                                <input class="form-control" type="password" id="repassword" placeholder="Vui lòng nhập lại mật khẩu">
+                                                <input required class="form-control" type="password" id="user_password" name="user_password" placeholder="Vui lòng nhập lại mật khẩu">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mt-2">
@@ -194,18 +195,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="button" id="btnRegister" class="btn btn-primary btn-block mt-2">Đăng
+                                    <button type="submit" class="btn btn-primary btn-block mt-2">Đăng
                                         Ký</button>
                                     <div class="col-lg-12 mt-3">
-                                        <p class="mb-0 text-center">Bạn đã có tài khoản? <a href="<?php echo ASSETS_URL_ROOT . '/public/' ?>client/login">Đăng
-                                                Nhập</a></p>
+                                        <p class="mb-0 text-center">Bạn đã có tài khoản? <a href="../client/login.php">Đăng Nhập</a></p>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     </div>
     <!-- Backend Bundle JavaScript -->
@@ -283,3 +282,21 @@
         });
     });
 </script>
+
+<?php
+// print_r($data);
+
+if (isset($data)) {
+
+?>
+    <script type="text/javascript">
+        Swal.fire({
+            title: 'Thất bại!',
+            text: 'Username đã tồn tại',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
+    </script>
+<?php
+
+} ?>
