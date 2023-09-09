@@ -22,7 +22,8 @@
     <meta property="article:tag" content="Liên Hệ Support : 0355275555 Uy Tín - Chất Lượng ">
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/favicon_V01.png" />
-    <link rel="stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/css/backend-plugin.min.css">
+    <link rel="stylesheet"
+        href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/css/backend-plugin.min.css">
     <!-- <link rel="stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/css/backend.css?v=1.0.0"> -->
 
     <link rel="stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>resources/css/responsive.css">
@@ -30,57 +31,62 @@
     <link rel="stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>resources/css/customize.css">
     <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>resources/js/jquery.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- sweetalert2-->
-    <link class="main-stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/sweetalert2/default.css" rel="stylesheet" type="text/css">
+    <link class="main-stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/sweetalert2/default.css"
+        rel="stylesheet" type="text/css">
     <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/sweetalert2/sweetalert2.js"></script>
     <!-- Cute Alert -->
-    <link class="main-stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/cute-alert/style.css" rel="stylesheet" type="text/css">
+    <link class="main-stylesheet" href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/cute-alert/style.css"
+        rel="stylesheet" type="text/css">
     <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/cute-alert/cute-alert.js"></script>
     <!-- jQuery -->
     <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/js/jquery-3.6.0.js"></script>
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
 
-        .card-product {
-            color: white;
-            background-image: linear-gradient(to right, #060606, #060606, #060606);
-        }
+    .card-product {
+        color: white;
+        background-image: linear-gradient(to right, #060606, #060606, #060606);
+    }
 
-        #loading-center {
-            background: url('<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/gif_loaderPZV.png') no-repeat scroll 50%;
-            background-size: 20%;
-            width: 100%;
-            height: 100%;
-            position: relative;
-        }
+    #loading-center {
+        background: url('<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/gif_loaderPZV.png') no-repeat scroll 50%;
+        background-size: 20%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
 
-        .change-mode .custom-switch.custom-switch-icon label.custom-control-label:after {
-            top: 0;
-            left: 0;
-            width: 35px;
-            height: 30px;
-            border-radius: 5px 0 0 5px;
-            background-color: #060606;
-            border-color: #060606;
-            z-index: 0;
-        }
+    .change-mode .custom-switch.custom-switch-icon label.custom-control-label:after {
+        top: 0;
+        left: 0;
+        width: 35px;
+        height: 30px;
+        border-radius: 5px 0 0 5px;
+        background-color: #060606;
+        border-color: #060606;
+        z-index: 0;
+    }
     </style>
 
-    <link href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/client/assets/css/pages/login/classic/login-2.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/client/assets/css/pages/login/classic/login-2.css"
+        rel="stylesheet" type="text/css" />
     <!-- Script Header -->
     <style>
-        .iq-sidebar-menu .side-menu li a {
-            color: #f1f1f1;
-        }
+    .iq-sidebar-menu .side-menu li a {
+        color: #f1f1f1;
+    }
 
-        .text-uppercase {
-            color: #f1f1f1;
-        }
+    .text-uppercase {
+        color: #f1f1f1;
+    }
     </style>
 </head>
 <!-- Dev By CMSNT.CO | FB.COM/CMSNT.CO | ZALO.ME/0947838128 | MMO Solution -->
@@ -88,13 +94,14 @@
 
 
 <style>
-    .bg-image {
-        background-position: 0 50%;
-        background-size: cover;
-    }
+.bg-image {
+    background-position: 0 50%;
+    background-size: cover;
+}
 </style>
 
-<body class="bg-image" style="background-image: url(<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/bg_register05J.png);">
+<body class="bg-image"
+    style="background-image: url(<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/bg_register05J.png);">
     <!-- loader Start -->
     <div id="loading">
         <div id="loading-center">
@@ -109,8 +116,10 @@
                         <div class="card p-3">
                             <div class="card-body">
                                 <div class="auth-logo">
-                                    <img src="<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/logo_dark_H7W.png" class="img-fluid  rounded-normal  darkmode-logo" alt="logo">
-                                    <img src="<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/logo_light_QPB.png" class="img-fluid rounded-normal light-logo" alt="logo">
+                                    <img src="<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/logo_dark_H7W.png"
+                                        class="img-fluid  rounded-normal  darkmode-logo" alt="logo">
+                                    <img src="<?php echo ASSETS_URL_ROOT . '/public/' ?>assets/storage/images/logo_light_QPB.png"
+                                        class="img-fluid rounded-normal light-logo" alt="logo">
                                 </div>
                                 <h3 class="mb-3 font-weight-bold text-center">Đăng Ký</h3>
                                 <!-- <p class="text-center text-secondary mb-4">
@@ -161,13 +170,15 @@
                                         <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label class="text-secondary">Tên đăng nhập</label>
-                                                <input required class="form-control" name="user_username" type="text" id="user_username" placeholder="Enter Username">
+                                                <input required class="form-control" name="user_username" type="text"
+                                                    id="user_username" placeholder="Enter Username">
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label class="text-secondary">Địa chỉ Email</label>
-                                                <input required class="form-control" type="email" id="user_email" name="user_email" placeholder="Enter Email">
+                                                <input required class="form-control" type="email" id="user_email"
+                                                    name="user_email" placeholder="Enter Email">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mt-2">
@@ -175,7 +186,8 @@
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <label class="text-secondary">Mật khẩu</label>
                                                 </div>
-                                                <input required class="form-control" type="password" id="user_password" name="user_password" placeholder="Vui lòng nhập mật khẩu">
+                                                <input required class="form-control" type="password" id="user_password"
+                                                    name="user_password" placeholder="Vui lòng nhập mật khẩu">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mt-2">
@@ -183,7 +195,8 @@
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <label class="text-secondary">Nhập lại mật khẩu</label>
                                                 </div>
-                                                <input required class="form-control" type="password" id="user_password" name="user_password" placeholder="Vui lòng nhập lại mật khẩu">
+                                                <input required class="form-control" type="password" id="user_password"
+                                                    name="user_password" placeholder="Vui lòng nhập lại mật khẩu">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mt-2">
@@ -198,7 +211,8 @@
                                     <button type="submit" class="btn btn-primary btn-block mt-2">Đăng
                                         Ký</button>
                                     <div class="col-lg-12 mt-3">
-                                        <p class="mb-0 text-center">Bạn đã có tài khoản? <a href="../client/login.php">Đăng Nhập</a></p>
+                                        <p class="mb-0 text-center">Bạn đã có tài khoản? <a
+                                                href="../client/login.php">Đăng Nhập</a></p>
                                     </div>
                                 </form>
                             </div>
@@ -228,7 +242,8 @@
     <!-- slider JavaScript -->
     <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/js/slider.js"></script>
     <!-- Emoji picker -->
-    <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/vendor/emoji-picker-element/index.js" type="module"></script>
+    <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/vendor/emoji-picker-element/index.js"
+        type="module"></script>
     <!-- app JavaScript -->
     <script src="<?php echo ASSETS_URL_ROOT . '/public/' ?>public/datum/assets/js/app.js"></script>
 </body>
@@ -237,66 +252,84 @@
 
 
 <script type="text/javascript">
-    $("#btnRegister").on("click", function() {
-        $('#btnRegister').html('<i class="fa fa-spinner fa-spin"></i> Đang xử lý...').prop('disabled',
-            true);
-        $.ajax({
-            url: "<?php echo ASSETS_URL_ROOT . '/public/' ?>ajaxs/client/register.php",
-            method: "POST",
-            dataType: "JSON",
-            data: {
-                username: $("#username").val(),
-                email: $("#email").val(),
-                password: $("#password").val(),
-                repassword: $("#repassword").val(),
-                recaptcha: $("#g-recaptcha-response").val()
-            },
-            success: function(respone) {
-                if (respone.status == 'success') {
-                    cuteToast({
-                        type: "success",
-                        message: respone.msg,
-                        timer: 5000
-                    });
-                    setTimeout(
-                        "location.href = '<?php echo ASSETS_URL_ROOT . '/public/' ?>client/home';",
-                        100);
-                } else {
-                    Swal.fire(
-                        'Thất bại',
-                        respone.msg,
-                        'error'
-                    );
-                }
-                $('#btnRegister').html('Đăng Ký').prop('disabled', false);
-            },
-            error: function() {
+$("#btnRegister").on("click", function() {
+    $('#btnRegister').html('<i class="fa fa-spinner fa-spin"></i> Đang xử lý...').prop('disabled',
+        true);
+    $.ajax({
+        url: "<?php echo ASSETS_URL_ROOT . '/public/' ?>ajaxs/client/register.php",
+        method: "POST",
+        dataType: "JSON",
+        data: {
+            username: $("#username").val(),
+            email: $("#email").val(),
+            password: $("#password").val(),
+            repassword: $("#repassword").val(),
+            recaptcha: $("#g-recaptcha-response").val()
+        },
+        success: function(respone) {
+            if (respone.status == 'success') {
                 cuteToast({
-                    type: "error",
-                    message: 'Không thể xử lý',
+                    type: "success",
+                    message: respone.msg,
                     timer: 5000
                 });
-                $('#btnRegister').html('Đăng Ký').prop('disabled', false);
+                setTimeout(
+                    "location.href = '<?php echo ASSETS_URL_ROOT . '/public/' ?>client/home';",
+                    100);
+            } else {
+                Swal.fire(
+                    'Thất bại',
+                    respone.msg,
+                    'error'
+                );
             }
+            $('#btnRegister').html('Đăng Ký').prop('disabled', false);
+        },
+        error: function() {
+            cuteToast({
+                type: "error",
+                message: 'Không thể xử lý',
+                timer: 5000
+            });
+            $('#btnRegister').html('Đăng Ký').prop('disabled', false);
+        }
 
-        });
     });
+});
 </script>
 
 <?php
 // print_r($data);
 
-if (isset($data)) {
+if (isset($data) ) {
+if ($data == '200') {
+   
+    ?>
+<script type="text/javascript">
+Swal.fire({
+    title: 'Thành công!',
+    text: 'Thành công',
+    icon: 'success',
+    confirmButtonText: 'OK'
+});
+setTimeout(function() {
+    location.href = '<?php echo ASSETS_URL_ROOT . '/' ?>login';
+}, 2000);
+</script>
 
-?>
-    <script type="text/javascript">
-        Swal.fire({
-            title: 'Thất bại!',
-            text: 'Username đã tồn tại',
-            icon: 'error',
-            confirmButtonText: 'OK'
-        });
-    </script>
 <?php
+}else{
+    ?>
+<script type="text/javascript">
+Swal.fire({
+    title: 'Thất bại!',
+    text: 'User đã tồn tại',
+    icon: 'erorr',
+    confirmButtonText: 'OK'
+});
+</script>
+
+<?php
+}
 
 } ?>

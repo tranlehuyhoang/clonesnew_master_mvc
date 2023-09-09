@@ -39,7 +39,7 @@ class UserModel extends Database
         }
 
         // Tiếp tục thêm mới người dùng
-        $query = "INSERT INTO clone_user(user_username, user_email, user_password) VALUES ('$user_username', '$user_email', '$user_password')";
+        $query = "INSERT INTO clone_user(user_username, user_email, user_password,	user_asset) VALUES ('$user_username', '$user_email', '$user_password' ,'0')";
         $result = $this->insert($query);
 
         if ($result) {

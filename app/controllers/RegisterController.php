@@ -8,6 +8,7 @@ class RegisterController extends Controller
             $result =  $this->model('user')->register($_POST['user_username'], $_POST['user_email'], $_POST['user_password']);
             //if authed -> go to dashboard
             if ($result == "200") {
+                echo $result;
                 redirect('/login');
             } else {
                 $this->view('frontend/register', [
